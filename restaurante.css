@@ -1,0 +1,87 @@
+.navbar{
+    background-color: rgb(241, 10, 10);
+}
+#cabecalho .nav .nav-link.active{
+background-color: #fff;
+color: #e15f45;
+margin-top: 8px;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link:hover{
+    color: #fff;
+}
+.navbar-toggler{
+    background-color: #ffeaea92;
+}
+.carousel-inner{
+    height: 100vh;
+    margin-top: -10px;
+}
+.section-title,h5{
+    font-family: pacifico,cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.section-title span{
+    color: #e15f45;
+}
+#sobre-nos,#cardapio{
+    background-color: #ffeae6;
+
+}
+.text-color-red{
+    color: #e15f45;
+}
+.nav-cardapio .nav-link{
+    text-transform: capitalize;
+    color: #e15f45;
+}
+.nav-cardapio.nav .nav-link.active{
+    background-color: #e15f45;
+    color: #fff;
+}
+.nav-cardapio .nav-link:hover{
+    background-color: #e15f45;
+    color: #e1dad8;
+}
+form{
+    text-transform: capitalize;
+}
+#fale-conosco .container, h2{
+    padding: 20px;
+}
+#fale-conosco form .btn{
+    background-color: #e15f45;
+    color: #fff;
+
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+    
+}
+
+
+@media(max-width:767px) {
+    .carousel-inner .carousel img{
+        height: 280px;
+        
+    }
+    .nav-cardapio{
+        display: block;
+    }
+    #m-tablet{
+        margin-left: -20px;
+    }
+
+}
+@media (min-width:767px) {
+    #m-tablet{
+        margin-left: -20px;
+    }
+}
